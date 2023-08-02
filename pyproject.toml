@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gender-definer"
+version = "0.0.2"
+description = "Python packege for define a gender by cyrillic and latin names"
+authors = ["yeghorkikhai <yeghorkikhai@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "genderdefiner"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.8.1"
+cyrtranslit = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
