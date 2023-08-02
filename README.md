@@ -14,7 +14,7 @@ pip install gender-definer
 
 ###### Installation poetry
 ```
-poetry gender-definer
+poetry add gender-definer
 ```
 
 ### Example
