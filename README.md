@@ -22,10 +22,12 @@ poetry gender-definer
 ```python
 from genderdefiner import GenderDefiner
 
-definer = GenderDefiner()
+gd = GenderDefiner()
 
-print(definer.define('Юля'))
+print(gd.define('Юля'))
 
-# output
+# output:
+#
 # SubjectGender(gender='female', probability=0.7646426652337452)
+#
 ```
